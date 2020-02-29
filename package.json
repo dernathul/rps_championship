@@ -1,0 +1,18 @@
+{
+  "name": "rps_championship",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dernathul/rps_championship.git",
+  "author": "dernathul <lautaroparracab@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^4.1.0"
+  },
+  "dependencies": {
+    "superstatic": "^6.0.4"
+  },
+  "scripts": {
+		"start": "superstatic src --port 3001",
+		"cy:open": "yarn start & cypress open"
+	}
+}
